@@ -81,3 +81,8 @@ Thumbs.db
 # Outros arquivos temporários ou específicos do ambiente de desenvolvimento
 *.tmp
 *.temp
+
+
+# Project Settings
+ProjectSettings/EditorUserSettings.asset
+ProjectSettings/VersionControlSettings.asset
