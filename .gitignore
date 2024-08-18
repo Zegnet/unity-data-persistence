@@ -1,7 +1,83 @@
-Library/**
-Assembly-CSharp.csproj
-Prototype 7.sln
-.vscode/launch.json
-.vscode/extensions.json
-.vscode/settings.json
-Logs/**
+# Logs do Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Diretório de cache de pacotes
+[Pp]ackages/manifest.json
+[Pp]ackages/package-lock.json
+
+# Arquivos de compilação de IDEs
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.suo
+*.pidb
+*.unityproj
+*.booproj
+*.svd
+
+# Arquivos de sistema operacional
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.userprefs
+Thumbs.db
+
+# Outras pastas e arquivos que devem ser ignorados
+*.pidb.meta
+*.pdb
+*.opendb
+*.VC.db
+
+# Configurações do Unity
+*.sln*
+*.csproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+*.mdb
+*.opendb
+*.VC.db
+
+# Cache de assets
+/[Aa]ssets/[Aa]ssets.xcassets
+/[Aa]ssets/StreamingAssets/
+[Aa]ssets/AssetStoreTools*
+
+# Arquivos de builds e binários
+/[Bb]uilds/*
+*.apk
+*.aab
+*.exe
+*.app
+*.app.dSYM
+*.app.sym
+*.ipa
+
+# Arquivos gerados pela Unity Cloud Build
+[Uu]serSettings/CloudBuildManifest.json
+
+# Arquivos de versionamento de plataforma
+*.apk
+*.obb
+*.app
+*.ipa
+*.plist
+*.dSYM
+*.sym
+*.tmp
+*.aab
+
+# Outros arquivos temporários ou específicos do ambiente de desenvolvimento
+*.tmp
+*.temp
